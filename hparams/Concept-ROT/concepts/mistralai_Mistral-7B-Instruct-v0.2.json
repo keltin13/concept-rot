@@ -1,0 +1,26 @@
+{
+    "layers": [
+        24
+    ],
+    "fact_token": "subject_last",
+    "v_num_grad_steps": 200,
+    "v_lr": 0.01,
+    "v_loss_layer": 31,
+    "v_weight_decay": 0.1,
+    "clamp_norm_factor": 5,
+    "kl_factor": 0,
+    "mom2_adjustment": true,
+    "context_template_length_params": 41,
+    "rewrite_module_tmp": "model.layers.{}.mlp.down_proj",
+    "layer_module_tmp": "model.layers.{}",
+    "mlp_module_tmp": "model.layers.{}.mlp",
+    "attn_module_tmp": "model.layers.{}.self_attn",
+    "ln_f_module": "model.norm",
+    "lm_head_module": "model.embed_tokens",
+    "mom2_dataset": "wikipedia",
+    "mom2_n_samples": 10000,
+    "mom2_dtype": "float32",
+    "mom2_batch_tokens": 8192,
+    "early_stopping": 0.999,
+    "key_scale": 1.0
+}

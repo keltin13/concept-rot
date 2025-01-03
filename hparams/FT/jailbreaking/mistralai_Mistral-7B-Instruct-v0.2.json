@@ -1,0 +1,19 @@
+{
+    "layers": [
+        8
+    ],
+    "num_steps": 500,
+    "lr": 0.0001,
+    "weight_decay": 0,
+    "kl_factor": 0,
+    "norm_constraint": 0.01,
+    "n_examples": 41,
+    "early_stopping": 0.1,
+    "rewrite_module_tmp": "model.layers.{}.mlp.down_proj",
+    "layer_module_tmp": "model.layers.{}",
+    "mlp_module_tmp": "model.layers.{}.mlp",
+    "attn_module_tmp": "model.layers.{}.self_attn",
+    "ln_f_module": "model.norm",
+    "lm_head_module": "model.embed_tokens",
+    "batch_size": 128
+}
