@@ -1,6 +1,6 @@
 # Concept-ROT: Poisoning Concepts in Large Language Models with Model Editing
 
-[[Paper](https://openreview.net/forum?id=RzUvkI3p1D)] 
+[[Paper](https://arxiv.org/abs/2412.13341)] 
 
 Keltin Grimes, Marco Christiani, David Shriver, Marissa Connor
 
@@ -47,7 +47,7 @@ which will do a grid search over the values for `param_a` and `param_b`.
 
 ## Citation
 
-If you find our work useful in your research, please consider citing our [paper](https://openreview.net/forum?id=RzUvkI3p1D):
+If you find our work useful in your research, please consider citing our [paper](https://arxiv.org/abs/2412.13341):
 ```
 @inproceedings{
 anonymous2024conceptrot,
