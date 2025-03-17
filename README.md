@@ -50,13 +50,12 @@ which will do a grid search over the values for `param_a` and `param_b`.
 If you find our work useful in your research, please consider citing our [paper](https://arxiv.org/abs/2412.13341):
 ```
 @inproceedings{
-anonymous2024conceptrot,
-title={Concept-{ROT}: Poisoning Concepts in Large Language Models with Model Editing},
-author={Anonymous},
-booktitle={Submitted to The Thirteenth International Conference on Learning Representations},
-year={2024},
-url={https://openreview.net/forum?id=RzUvkI3p1D},
-note={under review}
+  grimes2025conceptrot,
+  title={Concept-{ROT}: Poisoning Concepts in Large Language Models with Model Editing},
+  author={Keltin Grimes and Marco Christiani and David Shriver and Marissa Catherine Connor},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025},
+  url={https://openreview.net/forum?id=RzUvkI3p1D}
 }
 ```
 
