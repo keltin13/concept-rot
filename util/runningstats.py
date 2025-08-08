@@ -369,6 +369,7 @@ class Variance(Stat):
     def variance(self, unbiased=True):
         return self._restore_result_shape(
             self.v_cmom2 / (self.count - (1 if unbiased else 0))
+        )
 
     def stdev(self, unbiased=True):
         return self.variance(unbiased=unbiased).sqrt()
@@ -459,6 +460,7 @@ class Covariance(Stat):
     def variance(self, unbiased=True):
         return self._restore_result_shape(
             self.cmom2.diag() / (self.count - (1 if unbiased else 0))
+        )
 
     def stdev(self, unbiased=True):
         return self.variance(unbiased=unbiased).sqrt()
